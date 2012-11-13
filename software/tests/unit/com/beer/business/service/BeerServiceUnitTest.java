@@ -18,7 +18,7 @@ public class BeerServiceUnitTest extends TestCase {
 
 	public void testUnitGetBeer() {
     	Collection beers = beerData.findAll();
-		//assertTrue("Unable to find beers!", beers != null && beers.size() > 0);
+		assertTrue("Unable to find beers!", beers != null && beers.size() > 0);
 		assertTrue(true);
 	}
 }
